@@ -1,0 +1,101 @@
+
+<!-- Ceci est le code source du TD HTML-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ma page test</title>
+    </head>
+
+    <body>
+		<!--Le titre -->
+        <h1>Tuto HTML</h1>
+        <p>Voici le <U>tutoriel</U> qui vous permettera d'apprendre 
+        <B>html</B> en toute <U>simplicité</U> juste en cliquant
+		<!--lien du site-->
+         <a href="https://tutorialehtml.com/fr/html-tutoriel-html-complet/" target="_blank"> ici </a></p>
+		 <!--Image-->
+        <img src ="/home/lyes/L2/Web/projets-web/site-1/images/logo.png" alt="Image" width=50%>
+		<!--Listes-->
+		<h2>langages complémentaires</h2>
+        <ul><li>CSS</li> <li>JavaScript</li> <li>PHP</li></ul>
+		<!--Lien courrliel-->
+        <p>Voici mon mail: <a href="mailto:lyes.sid-ali@etu-sorbonne.univetsite.fr"> lyes.sid-ali@etu-sorbonne.univetsite.fr</a></p>
+		<!--Tableau-->
+		<table> 
+			<caption>Tableau</caption>
+			<tr><th>colonne1</th><th>colonne2</th><th>colonne3</th></tr>
+			<tr><td>colonne1</td><td>colonne2</td><td>colonne3</td></tr>
+			<tr><td>colonne1</td><td colspan="2">colonne2-3</td></tr>
+			<tr><td>colonne1</td><td>colonne2</td><td>colonne3</td></tr>
+			<tr><td>colonne1</td><td>colonne2</td><td>colonne3</td></tr>
+		</table>
+		<!--Formulaire-->
+		<form method="post">
+			<ul>
+				<table> <!--creation d'un tableau pour organiser-->
+				<tr>
+					<!--Bouton radio-->
+					<td><li><label for="civilite">Civilité :</label></td>
+					<td><input type="radio" id="monsieur" name = "civilité" value="monsieur"><label for="monsieur">Monsieur</label></td>
+					<td><input type="radio" id="madame" name = "civilité" value="madame">Madame</td>
+
+				</li></tr>
+				<tr>
+					<!--Informations-->
+					<td><li><label for="Nom">Nom :</label></td>
+					<td><input type="text" id="Nom" name="Nom"/></td>
+				</li></tr>
+				<tr>
+					<td><li><label for="Prenom">Prenom :</label></td>
+					<td><input  type="text" id="Prenom" name="Prenom"/></td>
+				</li></tr>
+				<tr>
+					<td><li><label for="Age">Age :</label></td>
+					<td><input type="text" id="Age" name="Age"/></td>
+				</li></tr>
+				<tr>
+					<!--email-->
+					<td><li><label for="Email">Email :</label></td>
+					<td><input type="email" id="Email" name="email"/></td>
+				</li></tr>
+				<tr>
+					<!--long message-->
+					<td><li><label for="msg">Votre message :</label></td>
+					<td><textarea name="Message" placeholder="Tapez votre message..." id="msg"></textarea></td>
+				</li></tr>
+				<tr>
+					<!--Liste déroulante-->
+					<td><li><label for="pays"> Pays de résidence: </label></td>
+					<td><select>
+						<option disabled>--Choisissez votre pays--</option> <!--on ne peut pas le choisir-->
+						<option value ="France">France</option>
+						<option value ="Suisse">Suisse</option>
+						<option value ="UE">UE</option>
+						<option value ="Hors UE">Hors UE</option>
+					</select> </td> 
+				</li></tr>
+				<table>
+					<tr>
+						<!--Checkbox-->
+						<td width="210"><li><label for="centre"> Centre d'intérets :</label></td>
+						<td width="200"><input type="checkbox" id="info" value="Informatique"/><label for="info">Informatique</label></td>
+						<td width="150"><input type="checkbox" id="sports" value="sports"/><label for="sports">Sports</label></td>
+						<td width="150"><input type="checkbox" id="musique" value="musique"/><label for="musique">Musique</label></td>
+						<td width="150"><input type="checkbox" id="lecture" value="lecture"/><label for="lecture">Lecture</label></td>
+					</li></tr>
+					</table>
+				<tr>
+					<!--Bouton de validation-->
+					<td><li><label for="bouton">Appuyez pour valider</label></td>
+					<td><input type="submit" id="bouton" value="Valider"/></td>
+				</li></tr>
+				
+				
+			</table>
+			</ul>
+		</form>
+    </body>
+
+</html>
