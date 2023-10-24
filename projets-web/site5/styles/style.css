@@ -1,0 +1,17 @@
+
+
+
+
+
+  table td{
+    padding: 10px;
+    text-align: center;
+    border: 3px  rgb(127, 188, 228) solid;
+
+  }
+  .impaire{
+    background-color: rgb(255, 255, 92);
+  }
+#dr_ligne{
+  color: rgb(255, 0, 0);
+}
