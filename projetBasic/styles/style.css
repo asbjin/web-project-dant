@@ -1,0 +1,157 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #e61f1f;
+  padding: 20px;
+  display:flex;
+  height: 80px;
+}
+
+#titredepage {
+  text-align: center; /* Centrez le contenu dans la section */
+  padding-bottom: 20px;
+}
+
+#titredepage h2 {
+  font-size: 1.5em;
+  letter-spacing: 0; /* Espacement initial entre les lettres */
+  transition: font-size 0.5s ease, letter-spacing 0.5s ease; /* Ajoutez des transitions pour font-size et letter-spacing */
+}
+
+#titredepage h2:hover {
+  font-size: 2em; /* Augmentez la taille de la police au survol */
+  letter-spacing: 5px; /* Augmentez l'espacement entre les lettres au survol */
+}
+
+
+
+img{
+  width: 65px;
+  height: 65px;
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+
+nav {
+
+  display: flex;
+  justify-content:space-between;
+}
+
+nav li {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float:left;
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  padding: 10px 50px;
+  margin-left: 37px;
+  transition: font-size 0.2s ease, background-color 0.2s ease;
+  border-radius: 30px;
+}
+nav li:hover{
+  background-color: #fff;
+  color: black;
+  font-size: 23px;
+  
+}
+
+
+
+main {
+  margin-top: 60px;
+}
+
+section {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#div1{
+  float: left;
+  margin: 0%;
+  padding: 0%;
+  width: 50%;
+  height: 466px;
+  
+ 
+ 
+}
+article {
+  float : left ;
+  width : 30%;
+  height : 60%;
+  background-color : grey ;
+  margin: 8px;
+  transition: background-color 0.2s ease;
+  border-radius: 10px;
+}
+
+article:hover {
+
+  background-color: #fff;
+  color: black;
+  
+
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #c40f0f;
+  padding: 20px;
+  margin-top: 53%;
+}
+
+#section1{
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+#section2{
+  height : 70%;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+
+#SideBar {
+  float: left;
+  width: 20%;
+  background-color: #e61f1f;
+  width: 350px;
+  height: 400px;
+  padding-bottom: 0%;
+  margin: 2%;
+  margin-left: 34px;
+  border-radius: 10px;
+  
+}
+
+h2,p{
+ text-align: center;
+}
+
+
+
+

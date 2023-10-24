@@ -1,0 +1,35 @@
+
+
+
+
+section > p{
+    background-color: rgba(245, 225, 253, 0.596);
+}
+
+p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .maclasse {
+    background-color: rgb(255, 255, 92);
+    padding: 10px 20px;
+    text-align: center;
+    border: 6px  rgb(127, 188, 228) solid;
+    border-left: 300px solid rgb(247, 233, 190);
+    border-right: 300px solid rgb(255, 239, 185);
+  }
+  
+
+  #monid{
+    border: 3px red solid;
+    padding: 5px;
+    margin: 20px;
+  }
+
+  #superid {
+    color: blueviolet;
+    text-transform:uppercase;
+  }
+  
+  

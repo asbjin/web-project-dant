@@ -1,0 +1,94 @@
+body {
+    font-family: monospace;
+    background-color: #EAECEE;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+}
+
+.sidebar {
+    background-color: #212F3D;
+    color: #EAECEE;
+    flex: 1;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px;
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+    
+}
+
+header {
+    background: linear-gradient(45deg, #2C3E50, #000000);
+    text-align: center;
+    color: #EAECEE;
+   
+}
+
+header img {
+    width: 60px;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+.port, .acc, .prp {
+    color: #941818;
+    font-style: italic;
+}
+
+.combined-sec{
+    background-color: #212F3D;
+}
+
+#SEC1 {
+    text-align: center;
+    color: #EAECEE;
+    padding: 20px;
+}
+
+
+
+.article-container {
+    display: flex;
+    justify-content: space-between; /* Répartit l'espace entre les articles */
+    margin-top: 20px; /* Espacement entre les articles et le titre */
+}
+
+.rectangle {
+    text-align: center;
+    padding: 10px;
+    flex: 1; /* Répartit l'espace de manière égale entre les articles */
+    margin: 0 10px; /* Espacement horizontal entre les articles */
+    background-color: #EAECEE;
+    padding-bottom: 50%;
+    margin-bottom: 30px;
+}
+
+
+
+.ft {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+h1 p {
+    display: inline-block;
+    padding-left: 50px;
+}
